@@ -1,0 +1,124 @@
+:root {
+  --pure-white: #FFFFFF;
+  --Dim-white:#F5F5F5;
+  --background-outside: #23252C;
+  --background-inside: #1A1B21;
+  --background-footer: #161619;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-outside);
+  color: var(--Dim-white);
+  box-sizing: border-box;
+  padding: 20px;
+ 
+}
+h1{
+  font-size: 25px;
+  color:var(--pure-white);
+
+}
+
+.info--main{
+  display: block;
+  text-align: center;
+}
+.info--profilepic{
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.info--main p {
+  margin: 0;
+  color: #F3BF99; 
+  font-size: 13px; 
+
+}
+.info--portfolio{
+  text-decoration: none;
+  color:var(--Dim-white);
+  font-size: 10px;
+  font-weight:bolder;
+
+}
+.info--portfolio:hover{
+  
+  color: skyblue;
+
+}
+
+.info--main button{
+  display: flex;
+  display: inline-block;
+  width: 115px;
+  padding:10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 14;
+ margin-top: 10px;
+}
+
+.twitter-button {
+  background-color: #1DA1F2; 
+  color: white;
+  margin-right: 50px;
+}
+
+
+.linkedin-button {
+  display: inline-block;
+  background-color: #0077B5; 
+  color: white;
+  margin-right:15px;
+  
+}
+
+.linkedin-button img{
+
+  margin-right: 5px;
+}
+
+.app-main{
+  
+  min-height: 110vh;
+  width: 380px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--background-inside); /* Set the background color for the card content */
+  margin: 0 auto; /* Center the card horizontally on the page */
+  padding-left:40px;/* Add padding to the card content */
+  padding-right:40px;
+  border-radius: 10px;
+  overflow-y: hidden;
+  position: relative;
+}
+  /* about page */
+
+.about h3{
+  font-size: 16px;
+}
+
+/* footer */
+footer{
+  width: 100%;
+  position:absolute;
+  background-color: var(--background-footer);
+  bottom: 0;
+  left: 0;
+  
+}
+.footer-icons{
+ display: flex;
+ justify-content:space-evenly;
+ padding: 20px;
+}
+
+.icon-link:hover{
+  background-color: aqua;
+  border-radius: 10px;
+
+}
