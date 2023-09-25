@@ -4,8 +4,6 @@ import { AiOutlineGithub} from "react-icons/ai";
 import {BiLinkExternal} from "react-icons/bi";
 
 
-
-
 function Footer(){
         return (
             <footer>
